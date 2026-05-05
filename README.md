@@ -18,10 +18,15 @@ pip install requirements.txt
 
 And you are ready to go
 
+# Important Notice
+
+Launching from console behaves weirdly for me, launching from within PyCharm works perfectly fine which is why I'd 
+recommend trying that if you have trouble
+
 # Whistle Input
 
 ```
-python3 ./whistle_input/main.py
+python ./whistle_input/main.py
 ```
 
 runs the whistle selector, displaying twio rectangles. When the program recognizes upwards or downwards input the 
@@ -30,5 +35,14 @@ Unluckily the detection is very very janky and I could not get it to work proper
 
 
 # Karaoke
+
+use 
+
+```
+python ./karaoke_game/game.py path/to/midi
+```
+
+two midi files, berge.mid and freude.mid are already in the karaoke_game dir. Once the window has opened up you can 
+press Enter to start the game.
 
 
