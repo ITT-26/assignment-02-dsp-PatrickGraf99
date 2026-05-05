@@ -42,6 +42,7 @@ def audio_callback(indata, frames, time, status):
 
     data = indata[:, 0]  # mono
     curve.setData(data)
+    print(data)
 
 
 # open audio input stream
